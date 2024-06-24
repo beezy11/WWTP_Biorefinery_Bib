@@ -1,12 +1,11 @@
 This repository is for the paper "Research Trends in Wastewater Treatment Biorefinery Processes: A Bibliometric Analysis"
 
-The paper utilizes PyBibX, and information for install and utilization can be found below:
+The paper applies PyBibX, and information for install/use can be found below:
 
 1. Install PyBibX
 ```bash
 pip install pyBibX
 ```
-
 2. Try it in **Colab**:
 
 - Example 01: Scopus                ([ Colab Demo ](https://colab.research.google.com/drive/1yHiMMZIKa-RrarXbPB9ca0gLN9YvvtPU?usp=sharing))
@@ -19,3 +18,12 @@ pip install pyBibX
 - Example 08: **Ask chatGPT** Analysis  ([ Colab Demo ](https://colab.research.google.com/drive/1LMrR49F54MuX-stlrQbrrjX_dEU3kZ8Y?usp=sharing))
 
 Data set zip and bib files for analysis can be found in folder1
+
+This paper also utilizes Bibliometrix in RStudio and code can be found below:
+
+1. Copy Code into Rtudio
+
+library(bibliometrix)
+biblioshiny()
+
+2. Run Code
