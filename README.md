@@ -23,7 +23,7 @@ This paper also utilizes Bibliometrix in RStudio and code can be found below:
 
 1. Copy Code into Rtudio
 
-library(bibliometrix)
-biblioshiny()
+- library(bibliometrix)
+- biblioshiny()
 
 2. Run Code
